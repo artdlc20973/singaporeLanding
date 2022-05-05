@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato',sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3em;
+}
+
+.logo {
+  color: #ff4b4b;
+  font-size: 2.3em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  color: #ff4b4b;
+  font-size: 1.2em;
+  padding: 1.2em;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: #4bccff;
+}
+
+body {
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1628221680019-f28a2716e727?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto;
+}
+
+h1 {
+  color: #ff4b4b;
+  letter-spacing: 2px;
+  padding-bottom: 1em;
+}
+
+p {
+  color: #4bccff44;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  margin: 0 4em;
+  font-size: 1.2em;
+  padding-bottom: 2.2em;
+}
+
+p:hover {
+  color: #4bccff;
+  cursor: pointer;
+}
+
+button {
+  background: #ff4b4b41;
+  color: #fff;
+  border: none;
+  font-size: 1.5em;
+  padding: 12px 40px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  transition: all .5s ease-in-out;
+}
+
+button:hover {
+  background: #4bccff54;
+  transform: translateY(9px);
+  border-radius: 25px;
+}
